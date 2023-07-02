@@ -19,7 +19,7 @@ final class CdnAssetProvider
             ['Css', Assets\FilePondPdfPreviewPluginCdn::class],
             ['Css', Assets\FilePondCdn::class, Assets\FilePondImagePreviewPluginCdn::class],
             ['Js', Assets\FilePondCdn::class, Assets\FilePondImagePreviewPluginCdn::class],
-            ['Js', Assets\FilePondCdn::class, Assets\Js\FilepondEncodePluginCdn::class],
+            ['Js', Assets\FilePondCdn::class, Assets\Js\FilePondEncodePluginCdn::class],
             ['Js', Assets\FilePondCdn::class, Assets\Js\FilePondImageExifOrientationPluginCdn::class],
             ['Js', Assets\FilePondCdn::class, Assets\Js\FilePondValidateSizePluginCdn::class],
             ['Js', Assets\FilePondCdn::class, Assets\Js\FilePondValidateTypePluginCdn::class],
