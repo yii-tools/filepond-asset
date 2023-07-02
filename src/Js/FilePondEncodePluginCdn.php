@@ -10,7 +10,7 @@ use Yiisoft\Assets\AssetBundle;
  * Asset bundle for the filepond encode plugin in content delivery network (CDN) mode, mainly used for publishing
  * assets.
  */
-final class FilepondEncodePluginCdn extends AssetBundle
+final class FilePondEncodePluginCdn extends AssetBundle
 {
     public bool $cdn = true;
     public array $js = ['https://unpkg.com/filepond-plugin-file-encode/dist/filepond-plugin-file-encode.js'];
