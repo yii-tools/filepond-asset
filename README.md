@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://github.com/yii-tools/template" target="_blank">
+    <a href="https://github.com/yii-tools/filepond-asset" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/121752654?s=200&v=4" height="100px">
     </a>
     <h1 align="center">Template.</h1>
@@ -22,12 +22,12 @@ For install this package, you need [composer](https://getcomposer.org/).
 
 ## CI status
 
-[![build](https://github.com/yii-tools/template/actions/workflows/build.yml/badge.svg)](https://github.com/yii-tools/template/actions/workflows/build.yml)
-[![codecov](https://codecov.io/gh/yii-tools/template/branch/main/graph/badge.svg?token=MF0XUGVLYC)](https://codecov.io/gh/yii-tools/template)
-[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fyii-tools%2Ftemplate%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/yii-tools/template/main)
-[![static analysis](https://github.com/yii-tools/template/actions/workflows/static.yml/badge.svg)](https://github.com/yii-tools/template/actions/workflows/static.yml)
-[![type-coverage](https://shepherd.dev/github/yii-tools/template/coverage.svg)](https://shepherd.dev/github/yii-tools/template)
-[![StyleCI](https://github.styleci.io/repos/494495136/shield?branch=main)](https://github.styleci.io/repos/494495136?branch=main)
+[![build](https://github.com/yii-tools/filepond-asset/actions/workflows/build.yml/badge.svg)](https://github.com/yii-tools/filepond-asset/actions/workflows/build.yml)
+[![codecov](https://codecov.io/gh/yii-tools/filepond-asset/branch/main/graph/badge.svg?token=MF0XUGVLYC)](https://codecov.io/gh/yii-tools/filepond-asset)
+[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fyii-tools%2Ffilepond-asset%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/yii-tools/filepond-asset/main)
+[![static analysis](https://github.com/yii-tools/filepond-asset/actions/workflows/static.yml/badge.svg)](https://github.com/yii-tools/filepond-asset/actions/workflows/static.yml)
+[![type-coverage](https://shepherd.dev/github/yii-tools/filepond-asset/coverage.svg)](https://shepherd.dev/github/yii-tools/filepond-asset)
+[![StyleCI](https://github.styleci.io/repos/661366645/shield?branch=main)](https://github.styleci.io/repos/661366645?branch=main)
 
 ## Our social networks
 
