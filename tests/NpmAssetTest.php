@@ -41,8 +41,8 @@ final class NpmAssetTest extends TestCase
             if ($getPublishedUrl !== null && $css !== null) {
                 $bundleUrl = $getPublishedUrl . '/' . $css;
 
+                $this->assertTrue($bundle->publishOptions['filter']->match('**/' . $bundle->css[0]));
                 $this->assertSame($bundleUrl, $this->assetManager->getCssFiles()[$bundleUrl][0]);
-                $this->assertStringContainsString($bundle->css[0], $this->assetManager->getCssFiles()[$bundleUrl][0]);
             }
         }
 
@@ -54,8 +54,8 @@ final class NpmAssetTest extends TestCase
             if ($getPublishedUrl !== null && $css !== null) {
                 $dependUrl = $getPublishedUrl . '/' . $css;
 
+                $this->assertTrue($depend->publishOptions['filter']->match('**/' . $depend->css[0]));
                 $this->assertSame($dependUrl, $this->assetManager->getCssFiles()[$dependUrl][0]);
-                $this->assertStringContainsString($depend->css[0], $this->assetManager->getCssFiles()[$dependUrl][0]);
             }
         }
 
@@ -66,8 +66,8 @@ final class NpmAssetTest extends TestCase
             if ($getPublishedUrl !== null && $js !== null) {
                 $dependUrl = $getPublishedUrl . '/' . $js;
 
+                $this->assertTrue($depend->publishOptions['filter']->match('**/' . $depend->js[0]));
                 $this->assertSame($dependUrl, $this->assetManager->getJsFiles()[$dependUrl][0]);
-                $this->assertStringContainsString($depend->js[0], $this->assetManager->getJsFiles()[$dependUrl][0]);
             }
         }
 
@@ -79,8 +79,8 @@ final class NpmAssetTest extends TestCase
             if ($getPublishedUrl !== null && $js !== null) {
                 $bundleUrl = $getPublishedUrl . '/' . $js;
 
+                $this->assertTrue($bundle->publishOptions['filter']->match('**/' . $bundle->js[0]));
                 $this->assertSame($bundleUrl, $this->assetManager->getJsFiles()[$bundleUrl][0]);
-                $this->assertStringContainsString($bundle->js[0], $this->assetManager->getJsFiles()[$bundleUrl][0]);
             }
         }
     }
