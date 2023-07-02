@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Yii\Assets;
 
-use Yii\Assets\Js\FilepondEncodePluginCdn;
+use Yii\Assets\Js\FilePondEncodePluginCdn;
 use Yii\Assets\Js\FilePondImageExifOrientationPluginCdn;
 use Yii\Assets\Js\FilePondValidateSizePluginCdn;
 use Yii\Assets\Js\FilePondValidateTypePluginCdn;
