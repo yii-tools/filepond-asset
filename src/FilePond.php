@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Yii\Assets;
 
-use Yii\Asset\Js\FilePondEncodePlugin;
-use Yii\Asset\Js\FilePondImageExifOrientationPlugin;
-use Yii\Asset\Js\FilePondValidateSizePlugin;
-use Yii\Asset\Js\FilePondValidateTypePlugin;
+use Yii\Assets\Js\FilePondEncodePlugin;
+use Yii\Assets\Js\FilePondImageExifOrientationPlugin;
+use Yii\Assets\Js\FilePondValidateSizePlugin;
+use Yii\Assets\Js\FilePondValidateTypePlugin;
 use Yiisoft\Assets\AssetBundle;
 use Yiisoft\Files\PathMatcher\PathMatcher;
 

@@ -11,7 +11,7 @@
     stopOnFailure="false"
 >
     <testsuites>
-        <testsuite name="Template">
+        <testsuite name="FilePondAsset">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

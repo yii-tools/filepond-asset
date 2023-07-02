@@ -15,9 +15,9 @@ use Yiisoft\Assets\AssetPublisher;
 
 trait TestTrait
 {
-    protected AssetManager $assetManager;
-    protected AssetPublisher $assetPublisher;
     private Aliases $aliases;
+    private AssetManager $assetManager;
+    private AssetPublisher $assetPublisher;
 
     protected function setUp(): void
     {
@@ -47,7 +47,7 @@ trait TestTrait
      */
     protected function tearDown(): void
     {
-        Assert::removeFilesFromDirectory($this->aliases->get('@assets'), true);
+        Assert::removeFilesFromDirectory($this->aliases->get('@assets'));
 
         unset($this->assetManager);
     }
@@ -65,6 +65,7 @@ trait TestTrait
         $loader = new AssetLoader($aliases, false, [], null, null);
 
         $this->assetPublisher = new AssetPublisher($aliases, false, false);
+        $this->assetPublisher = $this->assetPublisher->withForceCopy(true);
 
         $manager = new AssetManager($aliases, $loader, [], []);
 

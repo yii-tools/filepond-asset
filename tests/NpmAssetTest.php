@@ -42,6 +42,7 @@ final class NpmAssetTest extends TestCase
                 $bundleUrl = $getPublishedUrl . '/' . $css;
 
                 $this->assertSame($bundleUrl, $this->assetManager->getCssFiles()[$bundleUrl][0]);
+                $this->assertStringContainsString($bundle->css[0], $this->assetManager->getCssFiles()[$bundleUrl][0]);
             }
         }
 
@@ -65,6 +66,7 @@ final class NpmAssetTest extends TestCase
                 $dependUrl = $getPublishedUrl . '/' . $js;
 
                 $this->assertSame($dependUrl, $this->assetManager->getJsFiles()[$dependUrl][0]);
+                $this->assertStringContainsString($depend->js[0], $this->assetManager->getJsFiles()[$dependUrl][0]);
             }
         }
 
